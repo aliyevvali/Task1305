@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+.container {
+    width: 100%;
+}
+
+.fruit1,
+.fruit2,
+.fruit3,
+.fruit4 {
+    padding: 0 100px;
+}
+
+.product-details {
+    font-size: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.btn {
+    background-color: orange;
+    border-radius: 8px;
+    border-style: none;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+table{
+    justify-self: center;
+    margin: 30px 300px;
+}
+table>img{
+    height: 80px !important;
+    width: 80px !important;
+}
